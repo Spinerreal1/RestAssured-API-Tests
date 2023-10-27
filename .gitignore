@@ -21,6 +21,9 @@ target/
 .springBeans
 .sts4-cache
 
+### Ignore allure-results ###
+/allure-results/
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
