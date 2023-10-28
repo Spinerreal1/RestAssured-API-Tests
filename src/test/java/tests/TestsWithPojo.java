@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import specifications.Specifications;
-import specifications.SuccessReg;
-import specifications.UnSuccessReg;
+import model.SuccessReg;
+import model.UnSuccessReg;
 
 import java.time.Clock;
 import java.util.*;
@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 import static io.restassured.RestAssured.given;
 
-public class TestFirst {
+public class TestsWithPojo {
 
     private final static String URL = "https://reqres.in/";
 
